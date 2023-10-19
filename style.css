@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Work+Sans:ital,wght@0,200;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@font-face {
+    font-family: 'heymag';
+    src: url('fonts/HeyMagnolia.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-image: linear-gradient(to bottom,#000000, #162f3f, white);
+    border-radius: 10px;
+    width: 900px;
+    height: 1050px;
+    font-size: 1em;
+    padding: 10px;
+    margin: auto; 
+}
+/*
+    main{
+    background-image: linear-gradient(to bottom,#20BAFF, #B6DBF2, white);
+    border-radius: 10px;
+    width: 900px;
+    height: 1050px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: auto;
+    }
+*/
+div#divum {    
+    font-style:normal;
+    display: inline-block;
+    text-align: left;
+    font-size: 1em;
+    padding: 10px;
+    margin: auto;
+    border-style: ridge;
+    border-color: gold;    
+}
+div#imaga{
+    padding: 10px;
+    float:left;
+}
+
+div#page05img{
+    text-align: center;
+}
+
+
+div#homebutao{
+    padding: 10px;
+    background-size:auto;
+    color: white;
+    text-align: center;
+}
+div#email{
+    font-size: 16px;
+    font: Arial;
+}
+
+/* Color Theme  Yellow, Green, Blue, Wine, Orange
+.Blue-sky-background-and-white-clouds-soft-focus,-and-copy-space-1-hex { color: #F5DE7A; }
+.Blue-sky-background-and-white-clouds-soft-focus,-and-copy-space-2-hex { color: #69D66B; }
+.Blue-sky-background-and-white-clouds-soft-focus,-and-copy-space-3-hex { color: #50BAEB; }
+.Blue-sky-background-and-white-clouds-soft-focus,-and-copy-space-4-hex { color: #8C2BD6; }
+.Blue-sky-background-and-white-clouds-soft-focus,-and-copy-space-5-hex { color: #FA8773; }
+*/
+
+
+    #assist{
+        color: #191970;
+        background-color: #F5DE7A;
+        border-radius: 5px;
+        border-style: groove;
+        border-width: 1px;
+    }
+#sobret{
+        color: #4e4eaa;
+        background-color: #F5DE7A;
+        border-radius: 5px;
+        border-style: groove;
+        border-width: 1px;
+}
+/*div#sobreag{
+    color:#191970;
+        text-align: left;
+    
+    padding: 15px;       
+}
+*/
+#sbmim{ 
+        text-align: left;
+        font-size: 1.5em;        
+        padding: 5px;
+        
+
+        
+}
+p{
+    color: aliceblue;
+}
+div > p#testeimg { /* div > p  Significa que  o p (parágrafo é filho da div.  Para indicar isso usamos o simbolo >
+    ficara assim: 
+    div > p  {}
+    isso afeta apenas os parágrafos que estão dentro da <div>
+     */
+        display:none;
+    }
+    
+div.Calendário{
+    color: pink;
+}
+
+div:hover > p#testeimg{
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    width: 300px;
+}
+
+div:hover{
+    color: tomato;
+}
+
+
+
+
+
+h1{ color:midnightblue;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-image: linear-gradient(to right,#F5DE7A,#FA8773);
+    font-style: normal;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: rgb(105, 219, 111);
+    text-align: justify;
+    margin: auto;  
+}
+h3{
+   font-family: Arial, Helvetica, sans-serif; 
+   padding: 10px;
+   color: midnightblue;
+}
+
+#listaindex{
+    color: midnightblue;
+    padding: 25px;
+    text-align: left;
+    font-size: 1em;
+}
+#servlist{
+    
+    margin-inline-end: 5px;
+    line-height:200%;
+    display:block;
+    color: rgb(41, 41, 121);
+    
+}
+#servlist:hover{
+    
+    margin-inline-end: 5px;
+    line-height:200%;
+    display:block;
+       
+    
+}
+#page02link{
+    color: midnightblue
+}
+
+#page02link:hover{
+font-weight: bolder;
+font-size: 1.2em;
+color: #cf6552;
+
+border-radius: 5px;
+
+}
+
+
+#artgo{
+    background-color: #FA8773;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(116, 35, 113, 0.473);
+    border-width: 3px;
+    
+}
+
+
+
+#servpcomu{
+    background-color: #FA8773;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(116, 35, 113, 0.473);
+    border-width: 3px;
+    
+}
+
+div#titu{
+    font-family: 'work sans',Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: goldenrod;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#destitu{
+    font-family:'work sans';
+    
+    font-style: normal;
+    font-size: 2em;
+}
+
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+    float: right;
+    
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    box-sizing: border-box;
+    clear: both;
+    display: table;
+  } 
+
+  #ctt{
+color: #FA8773;
+padding: 10px;
+float: right;
+text-align: justify;
+text-shadow: 1px 1px 0px #FA8773;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.5em;
+  }
+
