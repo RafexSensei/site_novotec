@@ -171,6 +171,13 @@ h3{
 li{
 color: rgb(238, 255, 143);
 }
+
+
+a#page02link{
+    color: rgb(238, 255, 143);
+    }
+    
+
 #servlist{
     
     margin-inline-end: 5px;
