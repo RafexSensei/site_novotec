@@ -167,6 +167,10 @@ h3{
     text-align: left;
     font-size: 1em;
 }
+
+li{
+color: rgb(238, 255, 143);
+}
 #servlist{
     
     margin-inline-end: 5px;
