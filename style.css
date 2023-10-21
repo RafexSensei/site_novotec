@@ -82,6 +82,11 @@ img#calendarimg{
     width: 1000px;
 }
 
+img#rfximage{
+height: 300px;
+width: 300px;
+}
+
     #assist{
         color: #191970;
         background-color: #F5DE7A;
